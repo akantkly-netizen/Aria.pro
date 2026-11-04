@@ -21,6 +21,12 @@
 </p>
 
 <p>
+  <img src="https://img.shields.io/github/contributors/akantkly-netizen/Aria.pro?style=flat-square&label=CONTRIBUTORS&color=06B6D4" alt="Contributors" />
+  <img src="https://img.shields.io/github/repo-size/akantkly-netizen/Aria.pro?style=flat-square&label=REPO%20SIZE&color=8B5CF6" alt="Repository size" />
+  <img src="https://img.shields.io/github/commit-activity/m/akantkly-netizen/Aria.pro?style=flat-square&label=ACTIVITY&color=22C55E" alt="Commit activity" />
+</p>
+
+<p>
   <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
   <img src="https://img.shields.io/badge/YOUTUBE-FF0033?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
   <img src="https://img.shields.io/badge/TIKTOK-111111?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
@@ -571,6 +577,20 @@ local_secrets.sh
 
 ---
 
+## 🤝 مشارکت در توسعه Aria
+
+ایده، گزارش باگ یا پیشنهاد بهبود داری؟ خوشحال می‌شیم در بهتر شدن پروژه سهیم باشی.
+
+<div align="center">
+
+<a href="https://github.com/akantkly-netizen/Aria.pro/issues"><img src="https://img.shields.io/badge/🐛%20REPORT%20A%20BUG-Open%20Issue-EF4444?style=for-the-badge" alt="Report a bug" /></a>
+<a href="https://github.com/akantkly-netizen/Aria.pro/pulls"><img src="https://img.shields.io/badge/🚀%20CONTRIBUTE-Pull%20Request-8B5CF6?style=for-the-badge" alt="Contribute" /></a>
+<a href="https://github.com/akantkly-netizen/Aria.pro"><img src="https://img.shields.io/badge/⭐%20SUPPORT- Star%20the%20Project-F5C451?style=for-the-badge" alt="Star the project" /></a>
+
+</div>
+
+---
+
 ## ⚖️ نکات حقوقی
 
 این ابزار برای استفاده شخصی و دریافت محتوایی طراحی شده که مالک آن هستی یا اجازه دانلودش را داری. مسئولیت رعایت حق نشر، شرایط استفاده و قوانین پلتفرم‌های مربوط بر عهده کاربر است.
@@ -585,6 +605,6 @@ local_secrets.sh
 
 **ساخته‌شده با Python، کمی خلاقیت و کلی انرژی ⚡**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=170&section=footer&color=0:00D4FF,30:00A6FF,60:6A00F4,100:09001F" alt="Footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=210&section=footer&color=0:050014,25:312E81,55:6D28D9,80:0891B2,100:06B6D4&text=THANKS%20FOR%20VISITING&fontSize=30&fontColor=ffffff&fontAlignY=62&animation=twinkling" alt="Thanks for visiting Aria Pro" />
 
 </div>
