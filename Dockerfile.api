@@ -1,0 +1,13 @@
+FROM python:3.12-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1
+RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg nodejs ca-certificates && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+COPY requirements-api.txt .
+RUN pip install --no-cache-dir -r requirements-api.txt
+COPY aria_core ./aria_core
+RUN useradd --create-home --uid 10001 aria && mkdir -p /app/data && chown -R aria:aria /app
+USER aria
+ENV ARIA_DATA_DIR=/app/data ARIA_DOWNLOAD_DIR=/app/data/downloads PORT=8000 HOME=/tmp XDG_CACHE_HOME=/tmp/cache
+EXPOSE 8000
+HEALTHCHECK --interval=30s --timeout=5s --start-period=20s --retries=3 CMD python -c "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)" || exit 1
+CMD ["python", "-m", "aria_core"]
