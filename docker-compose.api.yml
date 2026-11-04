@@ -1,0 +1,31 @@
+services:
+  aria-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    restart: unless-stopped
+    environment:
+      ARIA_API_TOKEN: ${ARIA_API_TOKEN:?Set ARIA_API_TOKEN in your environment}
+      ARIA_WORKERS: ${ARIA_WORKERS:-2}
+      ARIA_MAX_FILE_SIZE_MB: ${ARIA_MAX_FILE_SIZE_MB:-1900}
+      ARIA_DATA_DIR: /app/data
+      PORT: 8000
+    ports:
+      - "127.0.0.1:${ARIA_PORT:-8000}:8000"
+    volumes:
+      - aria_data:/app/data
+    init: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    read_only: true
+    tmpfs:
+      - /tmp:size=256m
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  aria_data:
