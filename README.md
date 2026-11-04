@@ -85,6 +85,67 @@ flowchart LR
 
 </div>
 
+<div align="center">
+
+## ◈ ARIA FEATURE MAP · نقشه قابلیت‌ها
+
+*تمام ابزارهای Aria در یک نگاه؛ بدون شلوغی، با مسیرهای مشخص.*
+
+```mermaid
+mindmap
+  root((ARIA))
+    Media Downloader
+      Instagram
+      YouTube و Shorts
+      TikTok
+      Quality Selection
+      Audio Extraction
+    Music Studio
+      YouTube Music Search
+      MP3 Extraction
+      Gemini Analysis
+      AudD Recognition
+      ACRCloud Recognition
+    Delivery Engine
+      Live Progress
+      Speed and File Size
+      Telegram Upload
+      Local Bot API
+      Up to 2 GB
+    Power Tools
+      Playlist Browsing
+      Cookie Support
+      Request Cooldown
+      Railway and Docker
+```
+
+</div>
+
+<details>
+<summary><b>🧩 انتخاب مسیر مناسب — چه کاری می‌خواهی انجام بدهی؟</b></summary>
+
+| هدفت | از این قابلیت استفاده کن |
+|:--|:--|
+| دریافت ویدیوی شبکه‌های اجتماعی | لینک را ارسال کن و کیفیت دلخواهت را انتخاب کن |
+| گرفتن نسخه صوتی | گزینه صوتی یا استخراج MP3 را انتخاب کن |
+| پیدا کردن یک آهنگ | جست‌وجوی موسیقی با نام آهنگ یا خواننده |
+| شناسایی آهنگ داخل ویدیو | قابلیت تشخیص موسیقی با سرویس‌های تنظیم‌شده |
+| مرور یک مجموعه ویدیویی | ارسال لینک پلی‌لیست YouTube |
+| ارسال فایل بزرگ | راه‌اندازی Local Telegram Bot API |
+| دسترسی به ویدیوی نیازمند ورود | تنظیم امن فایل کوکی |
+
+</details>
+
+<div align="center">
+
+**ONE LINK. SMART PROCESSING. DIRECT DELIVERY.**
+
+`SEND`　→　`CHOOSE`　→　`TRACK`　→　`RECEIVE`
+
+</div>
+
+---
+
 ---
 
 ## 🧭 فهرست مطالب
