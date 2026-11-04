@@ -1,47 +1,72 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:09001F,25:3B0A75,60:6A00F4,100:00D4FF&text=INSTA%20MEDIA%20BOT&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=YOUR%20MEDIA.%20YOUR%20CHOICE.&descAlignY=59&descSize=18&animation=fadeIn" alt="Insta Media Bot" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:09001F,22:25105C,48:6A00F4,76:00A6FF,100:00D4FF&text=INSTA%20MEDIA%20BOT&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=YOUR%20MEDIA.%20YOUR%20CHOICE.&descAlignY=60&descSize=19&animation=fadeIn" alt="Insta Media Bot" />
 
 # ⚡ Insta Media Bot
-### ربات دانلود هوشمند و چندمنظوره تلگرام
+### ربات هوشمند دانلود و مدیریت رسانه در تلگرام
 
 **یک لینک بفرست؛ محتوا را با کیفیت دلخواهت تحویل بگیر.**
 
-<a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.9%2B-7B61FF?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
-<a href="https://core.telegram.org/bots"><img src="https://img.shields.io/badge/Telegram-Bot-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" /></a>
-<a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" /></a>
-<a href="https://railway.app/"><img src="https://img.shields.io/badge/Railway-Deploy-8A2BE2?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" /></a>
+<p>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.9%2B-7B61FF?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.9+" /></a>
+  <a href="https://core.telegram.org/bots"><img src="https://img.shields.io/badge/Telegram-Bot-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot" /></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Ready" /></a>
+  <a href="https://railway.app/"><img src="https://img.shields.io/badge/Railway-Deploy-8A2BE2?style=for-the-badge&logo=railway&logoColor=white" alt="Railway Deploy" /></a>
+</p>
 
-<img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
-<img src="https://img.shields.io/badge/YOUTUBE-FF0033?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
-<img src="https://img.shields.io/badge/TIKTOK-111111?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
-<img src="https://img.shields.io/badge/FFMPEG-00A86B?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+<p>
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/YouTube-FF0033?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
+  <img src="https://img.shields.io/badge/TikTok-111111?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
+  <img src="https://img.shields.io/badge/FFmpeg-00A86B?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+</p>
 
-**「از لینک تا فایل، سریع و ساده」**
+**「از لینک تا فایل؛ سریع، ساده و هوشمند」**
 
 </div>
 
 ---
 
+## 🧭 فهرست مطالب
+
+- [✨ معرفی پروژه](#-معرفی-پروژه)
+- [🚀 قابلیت‌ها](#-قابلیت‌ها)
+- [⚡ شروع سریع](#-شروع-سریع)
+- [⚙️ تنظیمات و متغیرهای محیطی](#️-تنظیمات-و-متغیرهای-محیطی)
+- [🎧 جست‌وجو و تشخیص موزیک](#-جستوجو-و-تشخیص-موزیک)
+- [📃 مدیریت پلی‌لیست YouTube](#-مدیریت-پلیلیست-youtube)
+- [📦 فایل‌های حجیم و Local Bot API](#-فایلهای-حجیم-و-local-bot-api)
+- [🍪 پشتیبانی از کوکی](#-پشتیبانی-از-کوکی)
+- [🛡️ مدیریت درخواست‌ها و پیام‌ها](#️-مدیریت-درخواستها-و-پیامها)
+- [🚄 استقرار روی Railway](#-استقرار-روی-railway)
+- [🧯 رفع خطاهای رایج](#-رفع-خطاهای-رایج)
+- [🗂️ ساختار پروژه](#️-ساختار-پروژه)
+- [⚖️ نکات حقوقی](#️-نکات-حقوقی)
+
+---
+
+## ✨ معرفی پروژه
+
+**Insta Media Bot** یک ربات چندمنظوره تلگرام برای دریافت و مدیریت محتوای رسانه‌ای است. لینک پست، ریلز، ویدیو یا پلی‌لیست را برای ربات بفرست؛ کیفیت یا فرمت موردنظرت را انتخاب کن و فایل را مستقیماً در تلگرام تحویل بگیر.
+
 <div align="center">
 
-## 🪄 یک ربات؛ کلی قابلیت
-
-| 📥 دانلود | 🎧 موزیک | 🧠 هوشمند | 🚀 حرفه‌ای |
+| 📥 دانلود محتوا | 🎵 ابزارهای موسیقی | 🧠 تشخیص هوشمند | 🚀 امکانات پیشرفته |
 |:---:|:---:|:---:|:---:|
-| Instagram | Music Search | Song Detection | Live Progress |
-| YouTube | MP3 Extraction | Gemini Support | Playlist Support |
-| TikTok | Official Track | AudD / ACRCloud | Local Bot API |
+| Instagram | Music Search | Gemini | Live Progress |
+| YouTube | MP3 Extraction | AudD / ACRCloud | Playlist Support |
+| TikTok | Official Track | Song Detection | Local Bot API |
 
 </div>
 
-## ✨ قابلیت‌ها در یک نگاه
+## 🚀 قابلیت‌ها
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
 ### 📲 دانلود از شبکه‌های اجتماعی
+
 - دانلود پست، ریلز و استوری Instagram
 - دانلود ویدیوهای YouTube و Shorts
 - دانلود ویدیوهای TikTok
@@ -51,12 +76,13 @@
 </td>
 <td width="50%" valign="top">
 
-### 🎵 دنیای موزیک
+### 🎧 دنیای موسیقی
+
 - جست‌وجوی آهنگ در YouTube Music
 - دریافت آهنگ با نام خواننده یا عنوان
 - استخراج MP3 از ویدیو
 - تشخیص آهنگ اصلی و جست‌وجوی نسخه رسمی
-- اولویت نسخه رسمی نسبت به ریمیکس و کاور
+- اولویت نسخه رسمی نسبت به Remix و Cover
 
 </td>
 </tr>
@@ -64,6 +90,7 @@
 <td width="50%" valign="top">
 
 ### 📊 تجربه کاربری بهتر
+
 - نوار پیشرفت زنده دانلود
 - نمایش درصد و حجم دانلودشده
 - نمایش سرعت دانلود
@@ -74,6 +101,7 @@
 <td width="50%" valign="top">
 
 ### 🛠️ امکانات پیشرفته
+
 - پشتیبانی از YouTube Playlist
 - مدیریت درخواست‌های هم‌زمان
 - محدودیت ضداسپم قابل تنظیم
@@ -84,31 +112,31 @@
 </tr>
 </table>
 
-> [!TIP]
-> تجربه‌ی دانلود ساده است: لینک را ارسال کن، کیفیت را انتخاب کن و منتظر دریافت فایل بمان. جزئیات پیشرفت دانلود هم به‌صورت زنده نمایش داده می‌شود.
-
-## 🧭 راهنمای سریع
+### 🧭 روند استفاده
 
 <div align="center">
 
-| مرحله | کاری که انجام می‌دهی |
-|:---:|---|
-| **01** | لینک پست، ریلز، ویدیو یا پلی‌لیست را برای ربات بفرست |
-| **02** | کیفیت یا فرمت موردنظرت را انتخاب کن |
-| **03** | پیشرفت دانلود را به‌صورت زنده دنبال کن |
-| **04** | فایل نهایی را در تلگرام دریافت کن |
+| 01 | 02 | 03 | 04 |
+|:---:|:---:|:---:|:---:|
+| 🔗 ارسال لینک | 🎚️ انتخاب کیفیت | 📊 مشاهده پیشرفت | 📥 دریافت فایل |
+| لینک محتوا را بفرست | فرمت دلخواهت را انتخاب کن | دانلود را زنده دنبال کن | فایل را در تلگرام بگیر |
 
 </div>
 
-## 🧰 پیش‌نیازها
+> [!TIP]
+> فقط لینک را ارسال کن؛ ربات مراحل دریافت محتوا را مدیریت می‌کند و وضعیت دانلود را به‌صورت زنده نمایش می‌دهد.
+
+---
+
+## ⚡ شروع سریع
+
+### پیش‌نیازها
 
 - **Python 3.9 یا بالاتر**
 - **FFmpeg**
 - **توکن ربات تلگرام** از [@BotFather](https://t.me/BotFather)
 
-برای ساخت ربات، در تلگرام وارد BotFather شو، دستور `/newbot` را اجرا کن و توکن ساخته‌شده را نگه دار.
-
-## 🚀 نصب و راه‌اندازی
+برای ساخت ربات، وارد BotFather شو، دستور `/newbot` را اجرا کن و توکن ساخته‌شده را نگه دار.
 
 ### 1. دریافت پروژه
 
@@ -158,11 +186,13 @@ python bot.py
 ```
 
 > [!IMPORTANT]
-> مقدار `USERNAME/REPOSITORY` را با نام کاربری و مخزن GitHub خودت جایگزین کن. توکن ربات را محرمانه نگه دار.
+> مقدار `USERNAME/REPOSITORY` را با نام کاربری و نام مخزن GitHub خودت جایگزین کن. توکن ربات را محرمانه نگه دار و آن را در کد یا مخزن عمومی قرار نده.
+
+---
 
 ## ⚙️ تنظیمات و متغیرهای محیطی
 
-| متغیر | توضیحات | وضعیت |
+| متغیر | کاربرد | وضعیت |
 |---|---|:---:|
 | `TELEGRAM_BOT_TOKEN` | توکن ربات تلگرام | ضروری |
 | `GEMINI_API_KEY` | تحلیل عنوان و کپشن برای تشخیص آهنگ | اختیاری |
@@ -177,7 +207,7 @@ python bot.py
 | `REQUEST_COOLDOWN_SECONDS` | فاصله زمانی درخواست‌های کاربر | پیش‌فرض: ۲۰ |
 
 <details>
-<summary><b>🔐 نمونه تنظیم متغیرها</b></summary>
+<summary><b>🔐 نمونه فایل متغیرهای محیطی</b></summary>
 
 ```env
 TELEGRAM_BOT_TOKEN=YOUR_BOT_TOKEN
@@ -196,13 +226,15 @@ REQUEST_COOLDOWN_SECONDS=20
 </details>
 
 > [!CAUTION]
-> کلیدها، توکن‌ها و کوکی‌ها اطلاعات محرمانه‌اند. آن‌ها را داخل کد یا مخزن عمومی GitHub قرار نده.
+> کلیدها، توکن‌ها و کوکی‌ها اطلاعات محرمانه‌اند. آن‌ها را داخل کد، فایل README یا مخزن عمومی GitHub قرار نده.
 
 ---
 
-## 🎧 جست‌وجو و دریافت موزیک
+## 🎧 جست‌وجو و تشخیص موزیک
 
-ربات برای پیدا کردن آهنگ، ابتدا YouTube Music را بررسی می‌کند.
+### 🔎 جست‌وجوی آهنگ
+
+ربات برای پیدا کردن آهنگ، ابتدا YouTube Music را بررسی می‌کند:
 
 - جست‌وجو با نام آهنگ یا فقط نام خواننده
 - نمایش نتایج در صفحه‌های ۱۰تایی
@@ -224,7 +256,7 @@ REQUEST_COOLDOWN_SECONDS=20
 
 در صورت شناسایی نشدن آهنگ، اطلاعات قابل استخراج مانند نام هنرمند نمایش داده می‌شود. تگ‌های فایل صوتی نیز تا حد امکان مرتب و تمیز تنظیم می‌شوند.
 
-### اتصال سرویس‌های تشخیص موزیک
+### 🔌 اتصال سرویس‌های تشخیص موزیک
 
 | سرویس | دریافت کلید | متغیر |
 |---|---|---|
@@ -240,23 +272,21 @@ REQUEST_COOLDOWN_SECONDS=20
 
 لینک پلی‌لیست را ارسال کن تا ربات اطلاعات آن را دریافت و ویدیوها را فهرست کند.
 
-<div align="center">
-
 | ویژگی | جزئیات |
-|:---|:---|
+|---|---|
 | 🖼️ اطلاعات پلی‌لیست | نمایش عنوان و تصویر |
 | 📚 صفحه‌بندی | نمایش ۵ ویدیو در هر صفحه |
 | 🚫 موارد نامعتبر | ویدیوهای خصوصی یا حذف‌شده نادیده گرفته می‌شوند |
 | 🔢 سقف بررسی | حداکثر ۳۰۰ ویدیوی اول |
 
-</div>
-
 > [!NOTE]
 > اگر لینک یک ویدیو را همراه پارامتر `&list` ارسال کنی، همان ویدیو انتخاب می‌شود؛ نه اینکه کل پلی‌لیست به‌صورت خودکار دانلود شود.
 
+---
+
 ## 📦 فایل‌های حجیم و Local Bot API
 
-برای مدیریت فایل‌های بزرگ‌تر می‌توانی از Local Telegram Bot API استفاده کنی. این قابلیت در Docker پروژه در نظر گرفته شده است.
+برای مدیریت فایل‌های بزرگ‌تر می‌توانی از **Local Telegram Bot API** استفاده کنی. این قابلیت در Docker پروژه در نظر گرفته شده است.
 
 ### فعال‌سازی
 
@@ -267,7 +297,7 @@ TELEGRAM_API_ID=YOUR_API_ID
 TELEGRAM_API_HASH=YOUR_API_HASH
 ```
 
-### حالت محلی چه کاری انجام می‌دهد؟
+### قابلیت‌های حالت محلی
 
 - سرور Local Bot API از سورس، داخل فرایند Docker ساخته و اجرا می‌شود.
 - اگر سرور محلی سالم باشد، ربات از آن استفاده می‌کند و از نشست API ابری خارج می‌شود.
@@ -285,7 +315,7 @@ TELEGRAM_API_HASH=YOUR_API_HASH
 | حالت | محدودیت ارسال فایل |
 |:---|:---:|
 | Telegram Bot API رسمی | ۵۰ مگابایت |
-| Local Telegram Bot API | تا ۲ گیگابایت |
+| Local Telegram Bot API | **تا ۲ گیگابایت** |
 
 </div>
 
@@ -294,7 +324,9 @@ TELEGRAM_API_HASH=YOUR_API_HASH
 
 می‌توانی اطلاعات حساس را در فایلی محلی مانند `local_secrets.sh` نگه داری؛ اما این فایل نباید وارد Git شود.
 
-## 🍪 کوکی برای ویدیوهای محدودشده
+---
+
+## 🍪 پشتیبانی از کوکی
 
 برخی ویدیوهای YouTube ممکن است به احراز هویت نیاز داشته باشند. در این شرایط می‌توانی فایل `cookies.txt` را از مرورگر خودت استخراج کنی.
 
@@ -325,7 +357,11 @@ Windows PowerShell:
 > [!CAUTION]
 > فایل کوکی ممکن است دسترسی حساب کاربری‌ات را در اختیار دیگران قرار دهد. آن را منتشر نکن، در Git آپلود نکن و در صورت افشای آن نشست‌های مربوط را باطل کن. کوکی‌ها ممکن است منقضی شوند و نیاز به استخراج دوباره داشته باشند.
 
-## 🛡️ ضداسپم و مدیریت درخواست‌ها
+---
+
+## 🛡️ مدیریت درخواست‌ها و پیام‌ها
+
+### ضداسپم و مدیریت درخواست‌ها
 
 برای جلوگیری از ارسال پشت‌سرهم درخواست‌ها، محدودیت زمانی پیش‌فرض ۲۰ ثانیه‌ای در نظر گرفته شده است.
 
@@ -334,7 +370,7 @@ Windows PowerShell:
 - مقدار محدودیت از طریق `REQUEST_COOLDOWN_SECONDS` قابل تغییر است.
 - با تنظیم مقدار `0` محدودیت زمانی غیرفعال می‌شود.
 
-## 🧹 پاک‌سازی هوشمند پیام‌ها
+### پاک‌سازی هوشمند پیام‌ها
 
 پس از ارسال موفق فایل:
 
@@ -437,6 +473,8 @@ ffprobe -version
 
 </details>
 
+---
+
 ## 🗂️ ساختار پروژه
 
 ```text
@@ -477,7 +515,9 @@ local_secrets.sh
 
 اگر قبلاً کوکی یا کلید محرمانه را در مخزن عمومی قرار داده‌ای، حذف فایل از آخرین commit کافی نیست؛ کلیدها و نشست‌های افشاشده را تعویض یا باطل کن.
 
-## ⚖️ نکات حقوقی و مسئولیت استفاده
+---
+
+## ⚖️ نکات حقوقی
 
 این ابزار برای استفاده شخصی و دریافت محتوایی طراحی شده که مالک آن هستی یا اجازه دانلودش را داری. مسئولیت رعایت حق نشر، شرایط استفاده و قوانین پلتفرم‌های مربوط بر عهده کاربر است.
 
@@ -486,10 +526,11 @@ local_secrets.sh
 <div align="center">
 
 ## 💜 اگر این پروژه برات مفید بود...
+
 ### ⭐ به مخزن GitHub ستاره بده!
 
 **ساخته‌شده با Python، کمی خلاقیت و کلی انرژی ⚡**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:00D4FF,35:6A00F4,70:3B0A75,100:09001F" alt="Footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=170&section=footer&color=0:00D4FF,30:00A6FF,60:6A00F4,100:09001F" alt="Footer" />
 
 </div>
