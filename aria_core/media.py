@@ -51,6 +51,7 @@ async def download_media(job: dict, destination: Path, store, max_size_mb: int) 
             "restrictfilenames": True,
             "overwrites": False,
             "cachedir": False,
+            "js_runtimes": {"node": {}},
         }
         if job["quality"] == "audio":
             options["format"] = FORMATS["audio"]
