@@ -1,27 +1,44 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:09001F,22:25105C,48:6A00F4,76:00A6FF,100:00D4FF&text=INSTA%20MEDIA%20BOT&fontSize=54&fontColor=ffffff&fontAlignY=38&desc=YOUR%20MEDIA.%20YOUR%20CHOICE.&descAlignY=60&descSize=19&animation=fadeIn" alt="Insta Media Bot" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:050014,18:160B3D,42:4C1D95,68:6D28D9,86:0891B2,100:06B6D4&text=ARIA%20%7C%20MEDIA%20BOT&fontSize=58&fontColor=ffffff&fontAlignY=36&desc=ONE%20LINK.%20ENDLESS%20POSSIBILITIES.&descAlignY=57&descSize=18&animation=twinkling" alt="Aria Pro — Media Bot" />
 
-# ⚡ Insta Media Bot
-### ربات هوشمند دانلود و مدیریت رسانه در تلگرام
+<a href="https://github.com/akantkly-netizen/Aria.pro"><img src="https://readme-typing-svg.demolab.com?font=Vazirmatn&weight=700&size=22&pause=1100&color=8B5CF6&center=true&vCenter=true&width=700&lines=%D8%B1%D8%A8%D8%A7%D8%AA+%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF+%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF+%D8%B1%D8%B3%D8%A7%D9%86%D9%87;%D8%A7%D8%B2+Instagram+%D9%88+YouTube+%D8%AA%D8%A7+TikTok;%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF%D8%8C+%D9%85%D9%88%D8%B2%DB%8C%DA%A9%D8%8C+%D8%AA%D8%B4%D8%AE%DB%8C%D8%B5+%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF" alt="Typing introduction" /></a>
 
-**یک لینک بفرست؛ محتوا را با کیفیت دلخواهت تحویل بگیر.**
+### ⚡ لینک رو بفرست؛ کیفیت رو انتخاب کن؛ فایل رو تحویل بگیر.
 
 <p>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.9%2B-7B61FF?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.9+" /></a>
-  <a href="https://core.telegram.org/bots"><img src="https://img.shields.io/badge/Telegram-Bot-24A1DE?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bot" /></a>
-  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Ready" /></a>
-  <a href="https://railway.app/"><img src="https://img.shields.io/badge/Railway-Deploy-8A2BE2?style=for-the-badge&logo=railway&logoColor=white" alt="Railway Deploy" /></a>
+  <a href="https://github.com/akantkly-netizen/Aria.pro"><img src="https://img.shields.io/github/stars/akantkly-netizen/Aria.pro?style=for-the-badge&logo=github&color=F5C451&label=STARS" alt="GitHub stars" /></a>
+  <a href="https://github.com/akantkly-netizen/Aria.pro/network/members"><img src="https://img.shields.io/github/forks/akantkly-netizen/Aria.pro?style=for-the-badge&logo=git&color=8B5CF6&label=FORKS" alt="GitHub forks" /></a>
+  <a href="https://github.com/akantkly-netizen/Aria.pro/issues"><img src="https://img.shields.io/github/issues/akantkly-netizen/Aria.pro?style=for-the-badge&logo=github&color=06B6D4" alt="GitHub issues" /></a>
+  <a href="https://github.com/akantkly-netizen/Aria.pro/commits/main"><img src="https://img.shields.io/github/last-commit/akantkly-netizen/Aria.pro?style=for-the-badge&logo=github&color=22C55E" alt="Last commit" /></a>
 </p>
 
 <p>
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
-  <img src="https://img.shields.io/badge/YouTube-FF0033?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
-  <img src="https://img.shields.io/badge/TikTok-111111?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
-  <img src="https://img.shields.io/badge/FFmpeg-00A86B?style=flat-square&logo=ffmpeg&logoColor=white" alt="FFmpeg" />
+  <img src="https://img.shields.io/badge/PYTHON-3.9%2B-7C3AED?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TELEGRAM-BOT-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" />
+  <img src="https://img.shields.io/badge/DOCKER-READY-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/RAILWAY-DEPLOY-8B5CF6?style=for-the-badge&logo=railway&logoColor=white" alt="Railway" />
 </p>
 
-**「از لینک تا فایل؛ سریع، ساده و هوشمند」**
+<p>
+  <img src="https://img.shields.io/badge/INSTAGRAM-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" />
+  <img src="https://img.shields.io/badge/YOUTUBE-FF0033?style=flat-square&logo=youtube&logoColor=white" alt="YouTube" />
+  <img src="https://img.shields.io/badge/TIKTOK-111111?style=flat-square&logo=tiktok&logoColor=white" alt="TikTok" />
+  <img src="https://img.shields.io/badge/YOUTUBE_MUSIC-FF0000?style=flat-square&logo=youtubemusic&logoColor=white" alt="YouTube Music" />
+</p>
+
+<br/>
+
+<table>
+<tr>
+<td align="center"><strong>📥 MULTI-PLATFORM</strong><br/>Instagram · YouTube · TikTok</td>
+<td align="center"><strong>🎵 MUSIC INTELLIGENCE</strong><br/>Search · Extract · Recognize</td>
+<td align="center"><strong>🚀 BIG FILES</strong><br/>Local Bot API · Up to 2 GB</td>
+<td align="center"><strong>📊 LIVE FEEDBACK</strong><br/>Progress · Speed · Size</td>
+</tr>
+</table>
+
+**[📚 راهنمای نصب](#-شروع-سریع) · [✨ قابلیت‌ها](#-قابلیت‌ها) · [⚙️ تنظیمات](#️-تنظیمات-و-متغیرهای-محیطی) · [🧯 رفع خطا](#-رفع-خطاهای-رایج)**
 
 </div>
 
