@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime data and credentials
+.env
+.env.*
+!.env.example
+data/
+*.session
+*.session-journal
+cookies.txt
+local_secrets.sh
+
+# Media outputs
+downloads/
+*.part
+*.ytdl
