@@ -61,3 +61,14 @@ def test_url_allowlist_with_public_dns(monkeypatch):
     import socket
     monkeypatch.setattr(socket, "getaddrinfo", lambda *a, **k: [(None,None,None,None,("142.250.72.14",443))])
     assert validate_media_url("https://www.youtube.com/watch?v=demo").startswith("https://")
+
+
+def test_api_rejects_unapproved_source(monkeypatch, tmp_path):
+    from fastapi.testclient import TestClient
+    from aria_core.api import app
+    token = "q"*48
+    monkeypatch.setenv("ARIA_API_TOKEN", token)
+    monkeypatch.setenv("ARIA_DATA_DIR", str(tmp_path))
+    with TestClient(app) as client:
+        response = client.post("/api/v1/jobs", headers={"Authorization":"Bearer "+token}, json={"url":"https://example.org/file.mp4","quality":"best"})
+        assert response.status_code == 422
