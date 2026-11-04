@@ -638,6 +638,53 @@ local_secrets.sh
 
 ---
 
+## 🚀 Aria Pro Control Plane — زیرساخت مدیریت دانلود
+
+Aria Pro حالا یک سرویس مستقل و قابل استقرار برای مدیریت دانلودهای رسانه‌ای هم دارد. این زیرسامانه در کنار ربات فعلی اجرا می‌شود و برای حفظ سازگاری، فایل اجرایی قدیمی را جایگزین یا دست‌کاری نمی‌کند.
+
+### معماری و قابلیت‌های عملیاتی
+
+- **FastAPI Gateway:** رابط HTTP نسخه‌بندی‌شده با مستندات OpenAPI
+- **Persistent Job Queue:** صف پایدار مبتنی بر SQLite WAL؛ درخواست‌ها پس از Restart باقی می‌مانند
+- **Concurrent Workers:** پردازش هم‌زمان قابل تنظیم با وضعیت و درصد پیشرفت
+- **Media Engine:** دریافت رسانه با کیفیت‌های `best`، `720p`، `480p` و استخراج `MP3`
+- **Lifecycle Management:** پیگیری، لغو، بازیابی و دریافت خروجی هر Job
+- **Security Layer:** توکن Bearer، allowlist دامنه، بررسی DNS و رد مقصدهای خصوصی برای کاهش ریسک SSRF
+- **Production Container:** Docker غیر root، healthcheck، فایل‌سیستم فقط‌خواندنی و volume پایدار
+- **Automated Tests:** تست چرخه Job، تنظیمات، اعتبارسنجی URL و احراز هویت API
+
+### اجرای مستقل API
+
+```bash
+pip install -r requirements-api.txt
+export ARIA_API_TOKEN="$(python -c 'import secrets; print(secrets.token_urlsafe(48))')"
+python -m aria_core
+```
+
+یا با Docker Compose:
+
+```bash
+export ARIA_API_TOKEN="$(python -c 'import secrets; print(secrets.token_urlsafe(48))')"
+docker compose -f docker-compose.api.yml up -d --build
+```
+
+### نمونه ساخت Job
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/v1/jobs \
+  -H "Authorization: Bearer $ARIA_API_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"url":"https://www.youtube.com/watch?v=VIDEO_ID","quality":"720p"}'
+```
+
+مسیرهای اصلی: `GET /health`، `POST /api/v1/jobs`، `GET /api/v1/jobs/{id}`، `DELETE /api/v1/jobs/{id}` و `GET /api/v1/jobs/{id}/file`.
+
+📚 **راهنمای کامل نصب، API، تنظیمات و عملیات:** [`aria_core/README.md`](aria_core/README.md) · [نقشه معماری](docs/architecture.md)
+
+> این سرویس مستقل است؛ اجرای آن نیازمند `ARIA_API_TOKEN` است و به نشست تلگرام یا اطلاعات محرمانه ربات وابسته نیست. برای دسترسی عمومی، حتماً از TLS و Reverse Proxy استفاده کن و پورت خام API را مستقیم روی اینترنت منتشر نکن.
+
+---
+
 ## 🤝 مشارکت در توسعه Aria
 
 Aria با ایده‌ها و مشارکت جامعه متن‌باز بهتر می‌شود. اگر پیشنهادی برای بهبود داری، باگی پیدا کرده‌ای یا می‌خواهی در توسعه سهیم شوی، از مسیرهای زیر اقدام کن؛ هر مشارکت، قدمی برای بهتر شدن پروژه است.
